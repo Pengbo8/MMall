@@ -1,0 +1,43 @@
+/*
+* @Author: Pearl8
+* @Date:   2018-02-17 14:58:30
+* @Last Modified by:   Pearl8
+* @Last Modified time: 2018-02-17 15:07:32
+*/
+.page-wrap{
+    padding: 30px 0;
+    margin-top: 20px;
+    text-align: center;
+    background: #fff;
+}
+.result-con{
+    display: none;
+}
+.result-con .result-title{
+    color: #555;
+}
+.result-con .result-content{
+    margin-top: 20px;
+}
+.result-con .result-content .link{
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+}/*
+* @Author: Pearl8
+* @Date:   2018-02-17 14:58:30
+* @Last Modified by:   Pearl8
+* @Last Modified time: 2018-02-17 15:08:52
+*/
+.nav-simple{
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+.nav-simple .logo{
+    font-size: 26px;
+    font-weight: bold;
+    color: #c60023;
+    text-decoration: none;
+}

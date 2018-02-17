@@ -1,8 +1,8 @@
 /*
-* @Author: Rosen
-* @Date:   2017-05-19 21:52:46
-* @Last Modified by:   Rosen
-* @Last Modified time: 2017-05-19 23:01:25
+* @Author: Pearl8
+* @Date:   2018-02-17 14:58:30
+* @Last Modified by:   Pearl8
+* @Last Modified time: 2018-02-17 15:07:35
 */
 
 'use strict';
@@ -13,6 +13,11 @@ var _mm = require('util/mm.js');
 $(function(){
     var type        = _mm.getUrlParam('type') || 'default',
         $element    = $('.' + type + '-success');
+    if(type === 'payment'){
+        var orderNumber  = _mm.getUrlParam('orderNumber'),
+            $orderNumber = $element.find('.order-number');
+        $orderNumber.attr('href', $orderNumber.attr('href') + orderNumber);
+    }
     // 显示对应的提示元素
     $element.show();
 })

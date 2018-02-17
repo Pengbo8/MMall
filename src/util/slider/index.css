@@ -1,19 +1,19 @@
 /*
-* @Author: Rosen
-* @Date:   2017-05-26 18:19:21
-* @Last Modified by:   Rosen
-* @Last Modified time: 2017-05-26 19:12:42
+* @Author: Pearl8
+* @Date:   2018-02-17 14:58:30
+* @Last Modified by:   Pearl8
+* @Last Modified time: 2018-02-17 15:04:53
 */
 /* banner */
 .banner{
-    position: relative; 
-    overflow: auto; 
+    position: relative;
+    overflow: auto;
 }
-.banner li { 
-    list-style: none; 
+.banner li {
+    list-style: none;
 }
-.banner ul li { 
-    float: left; 
+.banner ul li {
+    float: left;
 }
 /* 引导的小圆点 */
 .banner .dots {

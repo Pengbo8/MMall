@@ -1,5 +1,5 @@
 {
-  "name": "mmall-fe",
+  "name": "MMall",
   "version": "1.0.0",
   "description": "mmall前端代码",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@git.oschina.net:happymmall/mmall-fe.git"
+    "url": "https://github.com/Chasen8/MMall"
   },
   "author": "Rosen",
   "license": "ISC",

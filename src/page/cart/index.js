@@ -1,8 +1,8 @@
 /*
-* @Author: Rosen
-* @Date:   2017-05-30 16:51:25
-* @Last Modified by:   Rosen
-* @Last Modified time: 2017-06-02 21:09:14
+* @Author: Pearl8
+* @Date:   2018-02-17 14:58:30
+* @Last Modified by:   Pearl8
+* @Last Modified time: 2018-02-17 15:09:30
 */
 
 'use strict';
@@ -15,7 +15,7 @@ var templateIndex   = require('./index.string');
 
 var page = {
     data : {
-        
+
     },
     init : function(){
         this.onLoad();
@@ -122,14 +122,14 @@ var page = {
                 }
                 else{
                     _mm.errorTips('您还没有选中要删除的商品');
-                }  
+                }
             }
         });
         // 提交购物车
         $(document).on('click', '.btn-submit', function(){
             // 总价大于0，进行提交
             if(_this.data.cartInfo && _this.data.cartInfo.cartTotalPrice > 0){
-                window.location.href = './confirm.html';
+                window.location.href = './order-confirm.html';
             }else{
                 _mm.errorTips('请选择商品后再提交');
             }

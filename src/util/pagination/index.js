@@ -1,8 +1,8 @@
 /*
-* @Author: Rosen
-* @Date:   2017-05-28 11:58:08
-* @Last Modified by:   Rosen
-* @Last Modified time: 2017-05-28 15:36:16
+* @Author: Pearl8
+* @Date:   2018-02-17 14:58:30
+* @Last Modified by:   Pearl8
+* @Last Modified time: 2018-02-17 15:05:09
 */
 
 'use strict';
@@ -25,7 +25,7 @@ var Pagination = function(){
         if($this.hasClass('active') || $this.hasClass('disabled')){
             return;
         }
-        typeof _this.option.onSelectPage === 'function' 
+        typeof _this.option.onSelectPage === 'function'
             ? _this.option.onSelectPage($this.data('value')) : null;
     });
 };
@@ -49,7 +49,7 @@ Pagination.prototype.getPaginationHtml = function(){
     var html        = '',
         option      = this.option,
         pageArray   = [],
-        start       = option.pageNum - option.pageRange > 0 
+        start       = option.pageNum - option.pageRange > 0
             ? option.pageNum - option.pageRange : 1,
         end         = option.pageNum + option.pageRange < option.pages
             ? option.pageNum + option.pageRange : option.pages;

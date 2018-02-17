@@ -1,8 +1,8 @@
 /*
-* @Author: Rosen
-* @Date:   2017-05-23 11:50:32
-* @Last Modified by:   Rosen
-* @Last Modified time: 2017-05-23 15:55:48
+* @Author: Pearl8
+* @Date:   2018-02-17 14:58:30
+* @Last Modified by:   Pearl8
+* @Last Modified time: 2018-02-17 15:07:03
 */
 
 'use strict';
@@ -100,7 +100,7 @@ var page = {
                 formError.show('请输入不少于6位的新密码');
             }
         });
-        
+
     },
     // 加载输入用户名的一步
     loadStepUsername : function(){
@@ -123,7 +123,7 @@ var page = {
         $('.step-question').hide()
             .siblings('.step-password').show();
     }
-    
+
 };
 $(function(){
     page.init();

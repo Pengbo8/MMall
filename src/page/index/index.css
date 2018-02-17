@@ -1,10 +1,9 @@
 /*
-* @Author: Rosen
-* @Date:   2017-05-09 17:16:19
-* @Last Modified by:   Rosen
-* @Last Modified time: 2017-05-26 19:25:17
+* @Author: Pearl8
+* @Date:   2018-02-17 14:58:30
+* @Last Modified by:   Pearl8
+* @Last Modified time: 2018-02-17 15:08:26
 */
-
 /* keywords-list */
 .keywords-list{
     float: left;
@@ -48,7 +47,7 @@
 }
 /* banner的前一张和后一张按钮 */
 .banner-con .banner-arrow{
-    position: absolute; 
+    position: absolute;
     top:160px;
     width: 30px;
     height: 50px;

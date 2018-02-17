@@ -1,10 +1,9 @@
 /*
-* @Author: Rosen
-* @Date:   2017-05-08 15:19:12
-* @Last Modified by:   Rosen
-* @Last Modified time: 2017-05-26 19:36:18
+* @Author: Pearl8
+* @Date:   2018-02-17 14:58:30
+* @Last Modified by:   Pearl8
+* @Last Modified time: 2018-02-17 15:08:28
 */
-
 'use strict';
 require('./index.css');
 require('page/common/nav/index.js');
