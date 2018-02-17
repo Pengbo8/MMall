@@ -2,7 +2,7 @@
 * @Author: Pearl8
 * @Date:   2018-02-17 14:58:30
 * @Last Modified by:   Pearl8
-* @Last Modified time: 2018-02-17 15:16:23
+* @Last Modified time: 2018-02-17 15:32:23
 */
 
 'use strict';
@@ -47,8 +47,8 @@ var config = {
         'about'             : ['./src/page/about/index.js'],
     },
     output: {
-        path        : __dirname + '../',
-        publicPath  : 'dev' === WEBPACK_ENV ? '/dist/' : '//s.happymmall.com/mmall-fe/dist/',
+        path        : __dirname + '/dist/',
+        publicPath  : 'dev' === WEBPACK_ENV ? '../' : '//s.happymmall.com/mmall-fe/dist/',
         filename    : 'js/[name].js'
     },
     externals : {
