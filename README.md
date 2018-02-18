@@ -32,35 +32,39 @@
 1. 开发模式下预览项目<br>
 访问：http://localhost:8088/dist/view/index.html
 1. 打开chrales<br>
-刷新项目页面，找到404报错的页面，右击Map remote，设置如图，其他的404报错页面也是如此处理，根据404报错页面决定Path为/user/或/cart/等。完成即可正常注册登录访问。
-![N|Solid](http://m.qpic.cn/psb?/V14DPIsG3ADUGY/XkpQnu5YKP5Wa9iofwhjChouD8bmD0HdkwYAvgOnhR4!/b/dGcBAAAAAAAA&bo=iAM7AgAAAAADJ7A!&rf=viewer_4)
-
+刷新项目页面，找到404报错的页面，右击Map remote，设置如图，其他的404报错页面也是如此处理，根据404报错页面决定Path为/user/或/cart/等。完成即可正常注册登录访问。<br>
+![N|Solid](http://m.qpic.cn/psb?/V14DPIsG3ADUGY/XkpQnu5YKP5Wa9iofwhjChouD8bmD0HdkwYAvgOnhR4!/b/dGcBAAAAAAAA&bo=iAM7AgAAAAADJ7A!&rf=viewer_4)<br>
 
 ## ✏️ 技术
 
-- HTML：实现基本的 HTML 结构
-- CSS：渐进增强 or 优雅降级；
-- JS：增加了一些特效，通过特效来改进用户体验；解决了一些浏览器兼容性问题；用 eslint 做 js 代码校验
-- OwlCarousel2.js：响应式轮播图插件
-- Gulp：自动化构建工具，使用Gulp进行自动化打包发布
-- Node.js：同步异步编程方式的区别，包管理器NPM的使用，package.json 如何配置，http-server 的使用等知识
-- Picturefill：填平浏览器picture标签的兼容
-- 了解并学会使用EJS模板引擎。
-- 
+- HTML：HTML5；实现基本的 HTML 结构
+- CSS：CSS3；渐进增强 or 优雅降级
+- jQuery：JavaScript的框架
+- Unslider：jQuery轮播图插件
+- webpack：打包工具
+- webpack-dev-server：小型的Node.js Express服务器
+- Node.js：包管理器NPM的使用，package.json 如何配置
+- EJS模板引擎：填充数据的模板
+- Chrales：代理工具
 
-
-
+<br>
 
 ## ✏️ 收获
 
-1. 最大收获是对项目开发有了更完整的认识，学会如何自己解决问题
-1. 知道如何使用webpack，学会了
-2. 加深了对 css3 的一些特性的掌握，如 border-radius、transition 等
-3. 能够快速掌握并使用一个简易 JS 插件
-4. 熟悉了Node.js的基本知识、包管理器npm的使用、httpserver的使用
-5. 熟悉了自动化构建工具 Gulp 的基本流程
+1. 加深了对 html5 和 css3 的一些特性的掌握，如 border-radius、transition 等。
+1. 能够快速掌握并使用一个简易 JS 插件，学会如何看官方文档。
+1. 最大收获是对项目开发有了更完整的认识，学会如何自己解决问题，明白学习的方向。
+1. 知道需求分析、架构设计和技术选型，了解如何看后端接口文档，前后端如何配合。
+1. 学会了使用Github管理项目。
+1. 熟悉了Node.js的基本知识、包管理器npm的使用，代理工具chrales和Fiddler的使用。
+1. 学会如何搭载一个开发环境，从没有接触过webpack到已经能熟练使用webpack压缩代码，用webpack-dev-server搭载实时刷新的服务器，大大提高了工作效率。
+1. 由此也查询了一下其他搭载服务器的办法，包括有Gulp和http-server，还有谷歌的插件livereload，有的需要配合使用。
+1. 学会开发时对可复用部分进行提取，单独通用开发，然后将需求变成一块一块，进行模块开发。
+1. 知道了数据统计的方法，基本的SEO优化，访问数据统计，和大概的项目上线过程。
 
-## ✏️ 开发
+<br>
+
+## ✏️ 开发流程
 
 1. 需求分析：用户端（展示、购物车、下单、支付、订单、用户）和后台管理
 1. 架构设计：分层架构和模块化
