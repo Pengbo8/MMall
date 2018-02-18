@@ -26,17 +26,15 @@
 1. git clone 本项目到本地<br>
 命令: git clone xx
 1. 在项目根目录执行npm初始化<br>
-命令: npm install (--registry=https://registry.npm.taobao.org)
+命令: npm install
 1. 启动项目<br>
 开发模式: npm run dev (windows系统上为npm run dev_win)
 1. 开发模式下预览项目<br>
 访问：http://localhost:8088/dist/view/index.html
 1. 打开chrales<br>
+刷新项目页面，找到404报错的页面，右击Map remote，设置如图，其他的404报错页面也是如此处理，页面即可正常注册登录访问。
+![N|Solid](http://m.qpic.cn/psb?/V14DPIsG3ADUGY/XkpQnu5YKP5Wa9iofwhjChouD8bmD0HdkwYAvgOnhR4!/b/dGcBAAAAAAAA&bo=iAM7AgAAAAADJ7A!&rf=viewer_4)
 
-
-
-
-![N|Solid](http://m.qpic.cn/psb?/V14DPIsG3ADUGY/idA2DrttqUhiL7hCcPssoKmo7I5u8UigTb0b.QtPfNU!/b/dPMAAAAAAAAA&bo=1QSAAgAAAAADB3E!&rf=viewer_4)
 
 ## 技术
 
