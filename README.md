@@ -16,7 +16,7 @@
 👉 [订单详情](https://chasen8.github.io/MMall/dist/view/order-detail.html)<br>
 👉 [结果页](https://chasen8.github.io/MMall/dist/view/result.html)<br>
 
-## 项目初始化
+## ✏️ 项目初始化
 以上网址只能浏览页面，不能进行登录、注册、加入购物车等操作，这是因为这个项目不是纯静态的，要访问服务器，github pages只能挂载静态文件，所以无法进行登录等操作。如需操作要把本项目拉取到本地。
 
 1. 安装nodejs环境,推荐使用v4.4.7<br>
@@ -36,23 +36,44 @@
 ![N|Solid](http://m.qpic.cn/psb?/V14DPIsG3ADUGY/XkpQnu5YKP5Wa9iofwhjChouD8bmD0HdkwYAvgOnhR4!/b/dGcBAAAAAAAA&bo=iAM7AgAAAAADJ7A!&rf=viewer_4)
 
 
-## 技术
+## ✏️ 技术
 
 - HTML：实现基本的 HTML 结构
-- CSS：渐进增强 or 优雅降级；自己整理的 reset.css 来统一页面初始样式；相对单位 rem；媒体查询；清除浮动等
+- CSS：渐进增强 or 优雅降级；
 - JS：增加了一些特效，通过特效来改进用户体验；解决了一些浏览器兼容性问题；用 eslint 做 js 代码校验
 - OwlCarousel2.js：响应式轮播图插件
 - Gulp：自动化构建工具，使用Gulp进行自动化打包发布
 - Node.js：同步异步编程方式的区别，包管理器NPM的使用，package.json 如何配置，http-server 的使用等知识
 - Picturefill：填平浏览器picture标签的兼容
+- 了解并学会使用EJS模板引擎。
+- 
 
 
 
 
-## 收获
+## ✏️ 收获
 
-1. 对常见的响应式布局方法（CSS Media Query、Flex 弹性布局、Bootstrap 栅格系统）有了更深的认识
+1. 最大收获是对项目开发有了更完整的认识，学会如何自己解决问题
+1. 知道如何使用webpack，学会了
 2. 加深了对 css3 的一些特性的掌握，如 border-radius、transition 等
 3. 能够快速掌握并使用一个简易 JS 插件
 4. 熟悉了Node.js的基本知识、包管理器npm的使用、httpserver的使用
 5. 熟悉了自动化构建工具 Gulp 的基本流程
+
+## ✏️ 开发
+
+1. 需求分析：用户端（展示、购物车、下单、支付、订单、用户）和后台管理
+1. 架构设计：分层架构和模块化
+1. 技术选型：软件过程、前后端分离、构建工具、框架、版本控制、发布方式
+1. 前后端配合方式和数据接口定义：前端（数据请求、数据处理、页面展示）
+1. 开发环境搭载（安装nodejs、npm）
+1. git项目配置（安装后vim .gitconfig）
+1. git远程仓库建立（配置sshkey—克隆ssh—gitignore配置—切换分支）
+1. 开发工具准备（sublime、chrome、Charles、Photoshop、LiveReload）
+1. 目录结构设计
+1. webpack环境配置（webpack.config.js配置文件，npm安装插件）
+1. 通用功能开发
+1. 分模块开发（用户模块、商品模块、购物车模块、订单模块、支付模块）
+1. 生产环境适配（添加favicon、线上域名的分离、添加dns-prefetch、适配完成后对线上打包结果做回归测试）
+1. SEO优化
+
