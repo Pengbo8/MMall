@@ -36,7 +36,8 @@
 ![N|Solid](http://m.qpic.cn/psb?/V14DPIsG3ADUGY/XkpQnu5YKP5Wa9iofwhjChouD8bmD0HdkwYAvgOnhR4!/b/dGcBAAAAAAAA&bo=iAM7AgAAAAADJ7A!&rf=viewer_4)
 
 
-<br>
+<br/>
+
 ## ✏️ 技术
 
 - HTML：HTML5；实现基本的 HTML 结构
