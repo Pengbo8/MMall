@@ -32,7 +32,7 @@
 1. 开发模式下预览项目<br>
 访问：http://localhost:8088/dist/view/index.html
 1. 打开chrales<br>
-刷新项目页面，找到404报错的页面，右击Map remote，设置如图，其他的404报错页面也是如此处理，页面即可正常注册登录访问。
+刷新项目页面，找到404报错的页面，右击Map remote，设置如图，其他的404报错页面也是如此处理，根据404报错页面决定Path为/user/或/cart/等。完成即可正常注册登录访问。
 ![N|Solid](http://m.qpic.cn/psb?/V14DPIsG3ADUGY/XkpQnu5YKP5Wa9iofwhjChouD8bmD0HdkwYAvgOnhR4!/b/dGcBAAAAAAAA&bo=iAM7AgAAAAADJ7A!&rf=viewer_4)
 
 
