@@ -16,9 +16,29 @@
 👉 [订单详情](https://chasen8.github.io/MMall/dist/view/order-detail.html)<br>
 👉 [结果页](https://chasen8.github.io/MMall/dist/view/result.html)<br>
 
-一些页面是需要登录后才能有信息显示。
+## 使用
+以上网址只能浏览页面，不能进行登录、注册、加入购物车等操作，这是因为这个项目不是纯静态的，要访问服务器，github pages只能挂载静态文件，所以无法进行登录等操作。如需操作要把本项目拉取到本地。
+1.安装nodejs环境,推荐使用v4.4.7
+下载地址 : https://nodejs.org/download/release/v4.4.7/
+2.全局安装webpack
+命令: npm install -g webpack
+4.git clone 本项目到本地
+命令: git clone xx
+5.在项目根目录执行npm初始化
+命令: npm install (--registry=https://registry.npm.taobao.org)
+6.启动项目
+开发模式: npm run dev (windows系统上为npm run dev_win)
+生产模式: npm run dist (windows系统上为npm run dist_win)
+7.开发模式下预览项目
+访问：http://localhost:8086/dist/view/index.html
+8.打开chrales
 
-![N|Solid]()
+
+
+
+
+
+![N|Solid](http://m.qpic.cn/psb?/V14DPIsG3ADUGY/idA2DrttqUhiL7hCcPssoKmo7I5u8UigTb0b.QtPfNU!/b/dPMAAAAAAAAA&bo=1QSAAgAAAAADB3E!&rf=viewer_4)
 
 ## 技术
 
