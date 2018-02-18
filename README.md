@@ -32,8 +32,10 @@
 1. 开发模式下预览项目<br>
 访问：http://localhost:8088/dist/view/index.html
 1. 打开chrales<br>
-刷新项目页面，找到404报错的页面，右击Map remote，设置如图，其他的404报错页面也是如此处理，根据404报错页面决定Path为/user/或/cart/等。完成即可正常注册登录访问。<br>
+刷新项目页面，找到404报错的页面，右击Map remote，设置如图，其他的404报错页面也是如此处理，根据404报错页面决定Path为/user/或/cart/等。完成即可正常注册登录访问。
+<br>
 ![N|Solid](http://m.qpic.cn/psb?/V14DPIsG3ADUGY/XkpQnu5YKP5Wa9iofwhjChouD8bmD0HdkwYAvgOnhR4!/b/dGcBAAAAAAAA&bo=iAM7AgAAAAADJ7A!&rf=viewer_4)<br>
+<br>
 
 ## ✏️ 技术
 
@@ -46,7 +48,6 @@
 - Node.js：包管理器NPM的使用，package.json 如何配置
 - EJS模板引擎：填充数据的模板
 - Chrales：代理工具
-
 <br>
 
 ## ✏️ 收获
@@ -61,7 +62,6 @@
 1. 由此也查询了一下其他搭载服务器的办法，包括有Gulp和http-server，还有谷歌的插件livereload，有的需要配合使用。
 1. 学会开发时对可复用部分进行提取，单独通用开发，然后将需求变成一块一块，进行模块开发。
 1. 知道了数据统计的方法，基本的SEO优化，访问数据统计，和大概的项目上线过程。
-
 <br>
 
 ## ✏️ 开发流程
